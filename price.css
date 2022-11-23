@@ -1,0 +1,391 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.pick-one{
+    width: 210px;
+    height:auto;   
+   position: absolute;
+   top: 0%;
+   left:0%;
+   right:0%;
+   padding:30px;
+
+  }
+#myNavbar{
+    float:right;
+    padding: 23px;
+}
+
+li span{
+    color:#d2cc50;
+    font-size:16px;
+    transition: all .5s;
+    list-style-type: none;
+}
+span:hover{
+    color:blue;
+      transition: 0.4s ease;
+     padding-bottom:10px;
+      height: 0.10rem;
+      opacity: 1;
+      border-bottom: 1px solid #66b1f6;
+      cursor: pointer;
+    }
+.btn-1{
+    background-color: #59bb2b;
+    border:0;
+    padding: 13px;
+    border-radius:8px;
+    transition: all .5s;
+}
+
+.btn-1 span{
+    color:#fff;
+    font-size: 14px;
+}
+
+.btn-1:hover{
+    background-color: #67d036;
+}
+
+p::selection {
+    background-color: #59bb2b;
+    color:#000000;
+  }
+
+  h1::selection{
+    background-color: #59bb2b;
+    color:#000000;
+  }
+
+  h3::selection{
+    background-color:#59bb2b ;
+    color:#000000;
+  }
+
+  
+  h2::selection{
+    background-color: #59bb2b;
+    color:#000000;
+  }
+
+  h4::selection{
+    background-color: #59bb2b;
+    color:#000000;
+  }
+  img::selection{
+    background-color: #59bb2b;
+  }
+.green-box li::selection{
+  color: #000000;
+}
+  .content{
+    background-color: #78c824;
+    width:100%;
+    height:auto;
+    border-bottom-right-radius: 70px;
+}
+.content img{
+    align-items: center;
+    width: 300px;
+}
+.textBox-1{
+    margin-top: 40px;
+    padding:10px;
+    
+}
+.textBox-1 p{
+    color:#a39697;
+    line-height:25px;
+    font-size:15px;
+}
+.textBox-1 h1{
+    color:#59bb2b;
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.textBox-1 h2{
+    color:#000000;
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  justify-content: center;
+}
+.card{
+  width:258px;
+  height:auto;
+  border-radius: 20px;
+  border: 1px solid #59bb2b;
+
+  margin-left:20px;
+  margin-top: 20px;
+  box-shadow: -1px 4px 20px -5px rgba(0,0,0,0.75);
+}
+.card h1{
+
+  color:#59bb2b;
+  font-weight: bold;
+  text-align: center;
+  font-size:44px;
+}
+.card p{
+  color:#7f88a7;
+  text-align: center;
+  font-size:15px;
+  line-height: 24px;
+}
+
+.green-box h3{
+  color:#ffffff;
+  font-weight: bold;
+  font-size:30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.green-box{
+  background-color: #59bb2b;
+  padding:10px;
+  margin-top: 35px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height:auto;
+}
+.green-box li{
+  color:#ffffff;
+  text-align: left;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 15px;
+position: relative;
+bottom:10px;
+}
+.btn-1{
+  background-color: #59bb2b;
+  border:0;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius:8px;
+  transition: all .5s;
+
+}
+
+.btn-1 span{
+  color:#fff;
+  font-size: 14px;
+}
+.btn-1:hover{
+  background-color: #67d036;
+}
+.content-1{
+  border-top-right-radius: 40px;
+  width: 100%;
+  height:auto;
+ display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.right{
+  background-color: #000654;
+  width:50%;
+  height:auto;
+  padding:10px;
+  padding-bottom: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+
+}
+.right h2{
+        color:#e0f20f;
+        font-size:55px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
+
+    }
+
+.right p{
+text-align: left;
+font-size: 14px;
+color:#fff;
+line-height:30px;
+padding:20px;
+
+}
+
+
+
+.left{
+width: 45%;
+height:auto;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.border-content{
+  border:2px solid #ffff;
+  width:90%;
+  display: flex;
+  flex-wrap: wrap;
+  height:120px;
+  justify-content: center;
+  /*margin-right:200px;*/
+  margin-left: 13px;
+  padding:7px;
+  padding-top: 1px;
+}
+.border-content p{
+font-size: 15px;
+line-height:24px;
+}
+.b h1{
+  font-size:35px;
+  font-weight: bold;
+  color:white;
+
+}
+/*
+.b{
+  width:0px;
+}*/
+.a{
+position: relative;
+right:20px;
+}
+.green-box-1{
+  background-color: #79c122;
+  padding:30px;
+  padding-bottom: 100px !important;
+  margin-top: 30px !important;
+}
+
+.green-box-1 h3{
+  color:#ffff;
+  text-align: center;
+  padding:30px;
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: bold !important;
+}
+
+.footer{
+  background-color: #000654;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.foot-box{
+  padding:30px;
+  margin-left:10px !important;
+}
+.foot-box p {
+  color: white;
+  padding-top: 20px;
+  line-height: 27px;
+}
+.foot-box h4 {
+  color:#d3e5e7;
+  font-weight: bold !important;
+  font-size:24px;
+}
+
+input {
+  width:100px;
+  padding:10px;
+ outline: none;
+  font-size:30px;
+  
+}
+
+.pick-three{
+  background-color: #59bb2b;
+  padding:10px;
+  border-radius: 50%;
+  width:40px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.pick-three:hover{
+  background-color: #000654;
+}
+.btn-2{
+background-color: #62658c;
+border:0;
+padding: 13px;
+padding-right: 20px;
+border-radius:8px;
+transition: all .5s;
+color: #ffff;
+position: relative;
+left:24px;
+top:30px;
+font-size: 16px;
+
+}
+
+.btn-2:hover{
+background-color: #ffff;
+color:rgb(136, 184, 64);
+}
+      
+   .btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #999999;
+    color: darkgray;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 2s ease;
+    }
+    
+    .btn:hover {
+    background-color:#8d7373;
+    }
+    @media only screen and (max-width: 700px) {
+      .card {
+        width:100%;
+        height:auto;
+      }
+      .right{
+        width:100%;
+       }
+   
+       .left{
+         width: 0%;
+         visibility: hidden;
+       }
+       .pick-one{
+        padding-top:2%;
+    }
+
+    .foot-box{
+        width:100%;
+    }
+    input{
+        width:70%;
+    }
+    }
