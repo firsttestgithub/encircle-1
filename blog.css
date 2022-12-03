@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.pick-one{
+    width: 100px;
+    height:auto;   
+   position: absolute;
+   top: 0%;
+   left:0%;
+   right:0%;
+   padding:20px;
+
+  }
+#myNavbar{
+    float:right;
+    padding: 23px;
+}
+
+li span{
+    color:#d2cc50;
+    font-size:16px;
+    transition: all .5s;
+    list-style-type: none;
+}
+span:hover{
+    color:blue;
+      transition: 0.4s ease;
+     padding-bottom:10px;
+      height: 0.10rem;
+      opacity: 1;
+      border-bottom: 1px solid #66b1f6;
+      cursor: pointer;
+    }
+.btn-1{
+    background-color: #59bb2b;
+    border:0;
+    padding: 13px;
+    border-radius:8px;
+    transition: all .5s;
+}
+
+.btn-1 span{
+    color:#fff;
+    font-size: 14px;
+}
+.btn-1:hover{
+    background-color: #67d036;
+}
